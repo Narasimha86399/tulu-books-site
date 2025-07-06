@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="kn">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ಜೋಕುಲೆನ ಪುಸ್ತಕೊಲು</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans Kannada', sans-serif;
+      background-color: #0e2d2c;
+      color: #fff;
+    }
+
+    header {
+      background: #1b3a36;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #f2c744;
+      margin: 0;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .card {
+      background: #204a47;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s ease;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-bottom: 1rem;
+    }
+
+    .download-btn {
+      display: inline-block;
+      background-color: #f2c744;
+      color: #0e2d2c;
+      padding: 0.6rem 1.2rem;
+      font-weight: bold;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 0.5rem;
+    }
+
+    .download-btn:hover {
+      background-color: #e0b730;
+    }
+
+    a.back {
+      color: #f2c744;
+      display: block;
+      text-align: center;
+      margin-top: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    a.back:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>ಜೋಕುಲೆನ ಪುಸ್ತಕೊಲು</h1>
+  </header>
+
+  <a href="index.html" class="back">← ಹಿಂದು ಹೋಗಿ</a>
+
+  <div class="gallery">
+    <div class="card">
+      <a href="Mosagare.pdf" target="_blank">
+        <img src="Screenshot 2025-07-06 115210.png" alt="Mosagare">
+      </a>
+      <a class="download-btn" href="Mosagare.pdf" download>Download</a>
+    </div>
+
+    <div class="card">
+      <a href="nayi muruz.pdf" target="_blank">
+        <img src="Screenshot 2025-07-06 115143.png" alt="Nayi Muruz">
+      </a>
+      <a class="download-btn" href="nayi muruz.pdf" download>Download</a>
+    </div>
+  </div>
+</body>
+
+</html>
